@@ -21,7 +21,7 @@ reverse_numbers = ",".join(numbers_list[0:numbers_count:-1])
 print(reverse_numbers)
 
 
-'''
+
 import matplotlib.pyplot as plt
 
 xlist=[0,1,2]
@@ -33,5 +33,5 @@ plt.title("y=x**2")
 plt.plot(x,y)
 plt.show()
 input("press enter")
-'''
+
 
