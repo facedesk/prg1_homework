@@ -51,7 +51,7 @@ specs:
 function name: bubble
 description: 
 parameters: items
-returns: nothing
+returns: True or False
 
 
 pseudo code:
