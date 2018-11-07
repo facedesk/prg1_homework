@@ -41,6 +41,7 @@ def simple_bunny_ears(bunnies):
         return 2 + simple_bunny_ears(bunnies -1)    
 
 
+
 def odd_bunny_ears(bunnies):
     if(bunnies == 0):
         return 0
