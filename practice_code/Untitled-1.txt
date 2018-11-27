@@ -1,0 +1,19 @@
+Look at searching differently.
+Looking for something, lets map out each room
+How many rooms do we have?
+Which rooms are connected?
+
+
+Big O
+- How do you compare two algorithms?
+- Input vs Run time
+
+constant
+logarithmic
+linear
+polytime
+exponential
+
+
+
+
