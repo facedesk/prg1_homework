@@ -1,4 +1,4 @@
-Problem 1
+#Problem 1
 
 '''
 Write a function called decode_whale_speak. This function will read through a string and remove any letters(characters) that are neighbors and the same.
