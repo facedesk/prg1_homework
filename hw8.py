@@ -47,7 +47,12 @@ init # take in players list, set max score to 3
 
 play # play the dice game using the previous objects
 
-play_round # represents one round of all players rolling and choosing the highest score
+play_round # represe
+nts one round of all players rolling and choosing the highest score
 
 check_winner # searches through all players returning the player that won. If no one has won, return False
 '''
+
+
+
+startingDeck = deck(False,)

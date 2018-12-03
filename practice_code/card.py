@@ -14,7 +14,7 @@ class card():
         valid_suit = s.validate(parameter_suit)
 
         if(valid_rank and valid_suit):
-            self.suit = parameter_rank
+            self.suit = parameter_suit
             self.rank = parameter_rank
         else:
             self.suit = "Invalid"
@@ -22,7 +22,13 @@ class card():
     def display(self):
         print(self.rank + " of " + self.suit)
 
+card6 = card("clubs","6")
+card6.display()
+card7 = card("hearts","10")
+card7.display()
+
 card1 = card("hearts","11")
+
 card1.display()
 card2 = card("lionking","5")
 card2.display()
@@ -32,6 +38,4 @@ card4 = card("spades","ace")
 card4.display()
 card5 = card("ace","spades")
 card5.display()
-card6 = card("clubs","6")
 
-card7 = card("hearts","10")
