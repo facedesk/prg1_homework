@@ -19,8 +19,7 @@ class rank():
             "10":10,
             "jack":11,
             "queen":12,
-            "king":13,
-            "invalid":-1
+            "king":13
         }
     def validate(self, face_value):
         #return false if it is not in values

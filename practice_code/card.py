@@ -17,25 +17,6 @@ class card():
             self.suit = parameter_suit
             self.rank = parameter_rank
         else:
-            self.suit = "Invalid"
-            self.rank = "Invalid"
+            raise ValueError("Invalid Rank or Suit")
     def display(self):
         print(self.rank + " of " + self.suit)
-
-card6 = card("clubs","6")
-card6.display()
-card7 = card("hearts","10")
-card7.display()
-
-card1 = card("hearts","11")
-
-card1.display()
-card2 = card("lionking","5")
-card2.display()
-card3 = card("5","9")
-card3.display()
-card4 = card("spades","ace")
-card4.display()
-card5 = card("ace","spades")
-card5.display()
-

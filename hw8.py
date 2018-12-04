@@ -53,6 +53,3 @@ nts one round of all players rolling and choosing the highest score
 check_winner # searches through all players returning the player that won. If no one has won, return False
 '''
 
-
-
-startingDeck = deck(False,)

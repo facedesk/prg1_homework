@@ -4,8 +4,7 @@ class suit():
             "hearts":0,
             "spades":1,
             "diamonds":2,
-            "clubs":3,
-            "invalid":-1
+            "clubs":3
         }
     def validate(self, suit_value):
         if(suit_value in self.values):
